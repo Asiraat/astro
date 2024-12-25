@@ -1,0 +1,6 @@
+<BaseLayout title="Blog">
+  <h1>Blog</h1>
+  {content.map(post => (
+    <BlogCard {...post.frontmatter} />
+  ))}
+</BaseLayout>
