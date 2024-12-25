@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && git add . && git commit -m 'Deploy' && git push origin main"
+  },
+  "dependencies": {
+    "astro": "^3.0.0"
+  }
+}
